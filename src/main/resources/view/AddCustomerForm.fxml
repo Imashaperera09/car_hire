@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane" prefHeight="604.0" prefWidth="594.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.carhire.controller.AddCustomerFormController">
+    <children>
+        <Label layoutX="167.0" layoutY="49.0" text="Add Customer Form">
+            <font>
+                <Font name="System Bold" size="37.0" />
+            </font>
+        </Label>
+        <Label layoutX="37.0" layoutY="143.0" text="Customer Id">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="39.0" layoutY="191.0" text="Name">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="34.0" layoutY="239.0" text="Dath of Birth">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="37.0" layoutY="290.0" text="Salary">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="39.0" layoutY="343.0" text="Address">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="39.0" layoutY="396.0" text="City">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="36.0" layoutY="450.0" text="Province">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="33.0" layoutY="504.0" text="Postal Code">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <TextField fx:id="txtId" layoutX="265.0" layoutY="147.0" prefHeight="31.0" prefWidth="272.0" />
+        <TextField fx:id="txtName" layoutX="265.0" layoutY="193.0" prefHeight="31.0" prefWidth="272.0" />
+        <TextField fx:id="txtDob" layoutX="265.0" layoutY="241.0" prefHeight="31.0" prefWidth="272.0" />
+        <TextField fx:id="txtSalary" layoutX="265.0" layoutY="290.0" prefHeight="31.0" prefWidth="272.0" />
+        <TextField fx:id="txtAddress" layoutX="265.0" layoutY="345.0" prefHeight="31.0" prefWidth="272.0" />
+        <TextField fx:id="txtCity" layoutX="265.0" layoutY="400.0" prefHeight="31.0" prefWidth="272.0" />
+        <TextField fx:id="txtProvince" layoutX="265.0" layoutY="452.0" prefHeight="31.0" prefWidth="272.0" />
+        <TextField fx:id="txtPostalCode" layoutX="265.0" layoutY="506.0" prefHeight="31.0" prefWidth="272.0" />
+        <Button layoutX="290.0" layoutY="553.0" mnemonicParsing="false" onAction="#btnAddCustomer" prefHeight="31.0" prefWidth="197.0" style="-fx-background-color: pink;" text="Add Customer">
+            <font>
+                <Font size="19.0" />
+            </font>
+        </Button>
+        <Button layoutX="33.0" layoutY="54.0" mnemonicParsing="false" onAction="#btnBack" style="-fx-background-color: yellow;" text="Back">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
